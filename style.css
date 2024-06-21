@@ -1,0 +1,95 @@
+html,body{
+    min-height:279mm;
+    //width:215mm;
+    background-color: #262626;
+}
+
+#wrapper{
+    max-width: 250mm;
+    margin: 0 auto;
+}
+
+#dificulty{
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+}
+
+.flexTable{   
+    flex-direction: row;
+    display: flex;
+    //min-height: 500px;
+}
+.flexSoluce{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    background-color: white;
+    font-size: 30px;
+    border-collapse: collapse;
+    margin: 0px 17px 10px 0px;
+    //min-height: 650px;
+}
+
+.hide{
+    display: none;
+}
+
+.select{
+    background-color: #51DB4A;
+}
+
+.selectSol{
+    background-color: #FD282D;
+}
+
+.no-select{
+    background-color: default;
+}
+
+.sol{
+    background-color: white;
+    border-collapse: collapse;
+    margin: 0px 0px 0px 10px;
+}
+
+.main td{
+    text-align: center;
+    padding: 10px 2px;
+    min-width: 46px;
+    height: 34px;
+}
+
+.sol td{
+    text-align: center;
+    padding: 2px 2px;
+    min-width: 15px;
+}
+
+.leftB{
+    border-left: 2px solid black;
+}
+
+.topB{
+    border-top: 2px solid black;
+}
+
+button{
+    font-size: 20px;
+    margin: 2px 5px 10px;
+    padding: 2px 20px;
+    border: none;
+}
+
+#print{
+    margin-left: 110px;
+}
+
+@media print{
+    .no-print{
+	display: none !important;
+    }
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Sudoku Generator</title>
+    <link rel="stylesheet"  href="style.css">
+  </head>
+  <body>
+
+    <div id="dificulty" class="no-print">
+      <button id="easy" class="no-select">Facile</button>
+      <button id="medium" class="select">Medium</button>
+      <button id="hard" class="no-select">Difficile</button>
+      <button id="soluce" class="no-select">Solution</button>
+      <button id="print" onclick="window.print(); return false;">Imprimer</button>
+    </div>
+    
+    <div id="wrapper">
+
+	   <div class="flexTable">
+	     <table id="table1" border="1px" class="main"></table>
+	     <table id="table2" border="1px" class="main"></table>
+	   </div>
+	   <div class="flexTable">
+	     <table id="table3" border="1px" class="main"></table>
+	     <table id="table4" border="1px" class="main"></table>
+	   </div>
+
+	   <div id="allSoluce" class="hide">
+	     <table id="sol1" border="1px" class="sol"></table>
+	     <table id="sol2" border="1px" class="sol"></table>
+	     <table id="sol3" border="1px" class="sol"></table>
+	     <table id="sol4" border="1px" class="sol"></table>
+	   </div>
+	   
+
+    </div>
+    
+    <script src="scripts.js"></script>
+    
+  </body>
+</html>
